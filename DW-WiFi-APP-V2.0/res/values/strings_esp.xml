@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="esp_configure_activate">配置wifi连接云服务</string>
+    <string name="esp_configure_multiple_devices">多设备配置</string>
+   	<string name="esp_esptouch">Esp Touch</string>
+    <string name="esp_esptouch_wifi_hint">请首先连接wifi网络</string>
+    <string name="esp_esptouch_password">请输入当前wifi密码</string>
+    <string name="esp_esptouch_show_password">显示密码</string>
+    <string name="esp_esptouch_is_hidden">此Wi-Fi为隐藏Wi-Fi</string>
+    <string name="esp_esptouch_version">EspTouch Ver : %1$s</string>
+    <string name="esp_esptouch_hint_msg">\"Please make sure that the green light of device is under twinkle slowly before click [OK]\"</string>
+    <string name="esp_esptouch_connect_wifi">"%1$s is connected to Wi-Fi"</string>
+    <string name="esp_esptouch_menu_get_share">Get Share</string>
+    <string name="esp_esptouch_menu_softap_configure">SoftAP Configure</string>
+    <string name="esp_esptouch_done_text">Done</string>
+    <string name="esp_esptouch_result_title">Esptouch Result</string>
+    <string name="esp_esptouch_message_cloud_title">Connected to Cloud Device List(%1$d):\n</string>
+    <string name="esp_esptouch_message_wifi_title">Connected to Wi-Fi Device List(%1$d):\n</string>
+	<string name="esp_esptouch_discovering_devices">Discovering the devices&#8230;</string>
+	<plurals name="esp_esptouch_device_found">
+	    <item quantity="one">%d device found</item>
+	    <item quantity="many">%d devices found</item>
+	</plurals>
+	<string name="esp_esptouch_contacting_server">Contacting the server&#8230;</string>
+	<string name="esp_esptouch_registering_devices">Registering the devices&#8230;</string>
+	<plurals name="esp_esptouch_device_registered">
+	    <item quantity="one">%d device registered</item>
+	    <item quantity="many">%d devices registered</item>
+	</plurals> 
+</resources>

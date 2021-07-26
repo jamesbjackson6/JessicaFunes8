@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_full"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    
+	<LinearLayout
+	    style="@style/layout_vertical"
+	    android:layout_weight="1"
+	    android:background="@color/blue_t"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:orientation="vertical" >
+	
+	    <TextView
+	        android:id="@+id/myAddress"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="测试工具"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+	</LinearLayout>
+    <LinearLayout
+	    style="@style/layout_vertical"
+	    android:layout_weight="14"
+	    android:orientation="vertical" >
+	
+   		<LinearLayout
+   		    style="@style/layout_vertical"
+   		    android:layout_weight="2"
+   		    android:gravity="center_vertical|center_horizontal"
+   		    android:orientation="vertical" >
+
+   			<TextView
+   			    android:id="@+id/ssid"
+   			    android:layout_width="wrap_content"
+   			    android:layout_height="wrap_content"
+   			    android:text=""
+   			    android:textAppearance="?android:attr/textAppearanceLarge" />
+	   
+		</LinearLayout>
+		<LinearLayout
+		    style="@style/layout_vertical"
+		    android:layout_weight="2"
+		    android:orientation="horizontal" >
+	
+				<EditText
+				    android:id="@+id/password"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1"
+				    android:hint="@string/esp_esptouch_password"
+				    android:inputType="textPassword" >
+
+				    <requestFocus />
+				</EditText>
+		</LinearLayout>
+		<LinearLayout
+		    style="@style/layout_vertical"
+		    android:layout_weight="6"
+		    android:orientation="vertical" >
+			<LinearLayout
+			    style="@style/layout_vertical"
+			    android:layout_weight="1"
+			    android:orientation="vertical" >
+				<CheckBox
+			        android:id="@+id/show_password"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:checked="true"
+			        android:text="@string/esp_esptouch_show_password" />
+			</LinearLayout>	  
+			<LinearLayout
+			    style="@style/layout_vertical"
+			    android:layout_weight="1"
+			    android:orientation="vertical" >
+				<CheckBox
+			        android:id="@+id/is_hidden"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/esp_esptouch_is_hidden" />
+			</LinearLayout>	
+			<LinearLayout
+			    style="@style/layout_vertical"
+			    android:layout_weight="1"
+			    android:orientation="vertical" >
+				<CheckBox
+			        android:id="@+id/multiple_devices"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:checked="false"
+			        android:text="@string/esp_configure_multiple_devices" />
+			</LinearLayout>	
+			<LinearLayout
+			    style="@style/layout_vertical"
+			    android:layout_weight="1"
+			    android:orientation="horizontal" >
+				<LinearLayout
+				    style="@style/layout_horizontal"
+				    android:layout_weight="2"
+				    android:orientation="horizontal" >
+					<CheckBox
+				        android:id="@+id/activate"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="@string/esp_configure_activate" />
+				</LinearLayout>	  
+
+				<LinearLayout
+				    style="@style/layout_horizontal"
+				    android:layout_weight="1"
+				    android:gravity="center_vertical|center_horizontal"
+				    android:orientation="horizontal" >
+
+					<Button
+					    android:id="@+id/activateBtn"
+					    style="?android:attr/buttonStyleSmall"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:text="配置" />
+					
+				</LinearLayout>	
+			</LinearLayout>	     					    
+		</LinearLayout>
+		<LinearLayout
+		    style="@style/layout_vertical"
+		    android:layout_weight="1"
+		    android:gravity="center_vertical|center_horizontal"
+		    android:orientation="vertical" >
+			<TextView
+			    android:id="@+id/textView3"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="在配置之前请确保设备已连接wifi路由器"
+			    android:textColor="@color/red" />
+		</LinearLayout>
+		<LinearLayout
+		    style="@style/layout_vertical"
+		    android:layout_weight="8"
+		    android:gravity="center_vertical|center_horizontal"
+		    android:orientation="vertical" >
+
+			<TextView
+			    android:id="@+id/textView2"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:maxLines="@android:integer/config_longAnimTime"
+			    android:text="Small Text"
+			    android:textAppearance="?android:attr/textAppearanceSmall" />
+   
+		</LinearLayout>
+		<LinearLayout
+		    style="@style/layout_vertical"
+		    android:layout_weight="2"
+		    android:gravity="center_vertical|center_horizontal"
+		    android:orientation="vertical" >
+
+			<Button
+			    android:id="@+id/button1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="开始配置" />
+   
+		</LinearLayout>
+		<LinearLayout
+		    style="@style/layout_vertical"
+		    android:layout_weight="1"
+		    android:gravity="center_vertical"
+		    android:orientation="vertical" >
+
+			<TextView
+			    android:id="@+id/textView1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="V-0.3.4.3" />
+   
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

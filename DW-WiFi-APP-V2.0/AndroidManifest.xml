@@ -11,11 +11,11 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:theme="@android:style/Theme.Light">
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         <activity
-            android:name="LoginActivity"
+            android:name="dw.wifi.newtest.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,6 +28,7 @@
         <activity android:name="dw.wifi.fast_test.WIfiFastTestActivity"></activity>
         <activity android:name="dw.wifi.server_test.WifiServerConnectActivity"></activity>
         <activity android:name="dw.wifi.temperature.TempTestActivity"></activity>
+        <activity android:name="dw.wifi.newtest.SmartconfigActigity"></activity>
     </application>
 
 </manifest>
