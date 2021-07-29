@@ -29,6 +29,7 @@ proguard/
 .idea/
 .metadata/
 
+*.bak
 EspTouch_Demo/
 IOT-Espressif-Android/
 Qbox/
